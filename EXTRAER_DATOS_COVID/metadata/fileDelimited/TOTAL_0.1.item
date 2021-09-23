@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_EGGs8Bu1Eeyvo_mxk0bW5Q" name="TOTAL" dataPackage="_EGOowBu1Eeyvo_mxk0bW5Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/angel/Documents/Tesis/DATOS_COVID_EXTRAIDOS/TOTAL.txt" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_EGOowBu1Eeyvo_mxk0bW5Q" name="default" dataManager="_EGGs8Bu1Eeyvo_mxk0bW5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_EGOowRu1Eeyvo_mxk0bW5Q" id="_7YqbsBu0Eeyvo_mxk0bW5Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOowhu1Eeyvo_mxk0bW5Q" label="muestras" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOowxu1Eeyvo_mxk0bW5Q" label="muestras_pcr" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOoxBu1Eeyvo_mxk0bW5Q" label="positivas_total" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOoxRu1Eeyvo_mxk0bW5Q" label="positivas_probables" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOoxhu1Eeyvo_mxk0bW5Q" label="muestras_pcr_nuevas" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOoxxu1Eeyvo_mxk0bW5Q" label="pruebas_rezagadas" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOoyBu1Eeyvo_mxk0bW5Q" label="muertes_confirmadas" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOoyRu1Eeyvo_mxk0bW5Q" label="muertes_probables" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOoyhu1Eeyvo_mxk0bW5Q" label="muertes" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOoyxu1Eeyvo_mxk0bW5Q" label="muertes_nuevas" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOozBu1Eeyvo_mxk0bW5Q" label="positivas" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOozRu1Eeyvo_mxk0bW5Q" label="positivas_pcr" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOozhu1Eeyvo_mxk0bW5Q" label="positivas_pcr_nuevas" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOozxu1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo0Bu1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo0Ru1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre_edades_meses" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo0hu1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre_edades_0a4" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo0xu1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre_edades_5a9" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo1Bu1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre_edades_10a14" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo1Ru1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre_edades_15a19" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo1hu1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre_edades_20a49" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo1xu1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre_edades_50a64" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo2Bu1Eeyvo_mxk0bW5Q" label="positivas_pcr_hombre_edades_65an" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGOo2Ru1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer_edades_meses" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP0Bu1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer_edades_0a4" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP0Ru1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer_edades_5a9" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP0hu1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer_edades_10a14" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP0xu1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer_edades_15a19" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP1Bu1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer_edades_20a49" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP1Ru1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer_edades_50a64" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP1hu1Eeyvo_mxk0bW5Q" label="positivas_pcr_mujer_edades_65an" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP1xu1Eeyvo_mxk0bW5Q" label="positivas_rapidas" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP2Bu1Eeyvo_mxk0bW5Q" label="negativas" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP2Ru1Eeyvo_mxk0bW5Q" label="negativas_pcr" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP2hu1Eeyvo_mxk0bW5Q" label="negativas_pcr_nuevas" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP2xu1Eeyvo_mxk0bW5Q" label="negativas_rapidas" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP3Bu1Eeyvo_mxk0bW5Q" label="hospitalizadas_altas" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP3Ru1Eeyvo_mxk0bW5Q" label="hospitalizadas_estables" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP3hu1Eeyvo_mxk0bW5Q" label="hospitalizadas_pronostico_reservadas" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP3xu1Eeyvo_mxk0bW5Q" label="msp_hospitalizacion_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP4Bu1Eeyvo_mxk0bW5Q" label="msp_hospitalizacion_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP4Ru1Eeyvo_mxk0bW5Q" label="msp_hospitalizacion_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP4hu1Eeyvo_mxk0bW5Q" label="msp_hospitalizacion_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP4xu1Eeyvo_mxk0bW5Q" label="msp_cuidado_intermedio_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP5Bu1Eeyvo_mxk0bW5Q" label="msp_cuidado_intermedio_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP5Ru1Eeyvo_mxk0bW5Q" label="msp_cuidado_intermedio_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP5hu1Eeyvo_mxk0bW5Q" label="msp_cuidado_intermedio_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP5xu1Eeyvo_mxk0bW5Q" label="msp_uci_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP6Bu1Eeyvo_mxk0bW5Q" label="msp_uci_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP6Ru1Eeyvo_mxk0bW5Q" label="msp_uci_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP6hu1Eeyvo_mxk0bW5Q" label="msp_uci_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP6xu1Eeyvo_mxk0bW5Q" label="rpis_hospitalizacion_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP7Bu1Eeyvo_mxk0bW5Q" label="rpis_hospitalizacion_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP7Ru1Eeyvo_mxk0bW5Q" label="rpis_hospitalizacion_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP7hu1Eeyvo_mxk0bW5Q" label="rpis_hospitalizacion_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP7xu1Eeyvo_mxk0bW5Q" label="rpis_cuidado_intermedio_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP8Bu1Eeyvo_mxk0bW5Q" label="rpis_cuidado_intermedio_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP8Ru1Eeyvo_mxk0bW5Q" label="rpis_cuidado_intermedio_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP8hu1Eeyvo_mxk0bW5Q" label="rpis_cuidado_intermedio_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP8xu1Eeyvo_mxk0bW5Q" label="rpis_uci_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP9Bu1Eeyvo_mxk0bW5Q" label="rpis_uci_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP9Ru1Eeyvo_mxk0bW5Q" label="rpis_uci_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP9hu1Eeyvo_mxk0bW5Q" label="rpis_uci_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP9xu1Eeyvo_mxk0bW5Q" label="rpc_hospitalizacion_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP-Bu1Eeyvo_mxk0bW5Q" label="rpc_hospitalizacion_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP-Ru1Eeyvo_mxk0bW5Q" label="rpc_hospitalizacion_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP-hu1Eeyvo_mxk0bW5Q" label="rpc_hospitalizacion_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP-xu1Eeyvo_mxk0bW5Q" label="rpc_cuidado_intermedio_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP_Bu1Eeyvo_mxk0bW5Q" label="rpc_cuidado_intermedio_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP_Ru1Eeyvo_mxk0bW5Q" label="rpc_cuidado_intermedio_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP_hu1Eeyvo_mxk0bW5Q" label="rpc_cuidado_intermedio_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPP_xu1Eeyvo_mxk0bW5Q" label="rpc_uci_camas_porcentaje_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPQABu1Eeyvo_mxk0bW5Q" label="rpc_uci_lista_espera" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPQARu1Eeyvo_mxk0bW5Q" label="rpc_uci_camas_asignadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPQAhu1Eeyvo_mxk0bW5Q" label="rpc_uci_camas_ocupadas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EGPQAxu1Eeyvo_mxk0bW5Q" label="Fecha" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

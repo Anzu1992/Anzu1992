@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="String.valueOf(row4.lng)">
+  <variables name="row4.provincia" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.provincia_poblacion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.canton" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.canton_poblacion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.total" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.nuevas" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.lat" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row4.lng" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row4.created_at" value="null" talendType="id_Date" nullable="true"/>
+</expression:EMFExpression>
